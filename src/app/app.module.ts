@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { Post01Component } from './posts/post01/post01.component';
 import { NavigationComponent } from './rayouts/navigation/navigation.component';
 import { FooterComponent } from './rayouts/footer/footer.component';
+import { Post02Component } from './posts/post02/post02.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FooterComponent } from './rayouts/footer/footer.component';
     MainComponent,
     Post01Component,
     NavigationComponent,
-    FooterComponent
+    FooterComponent,
+    Post02Component
   ],
   imports: [
     BrowserModule,
