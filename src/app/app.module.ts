@@ -8,6 +8,7 @@ import { Post01Component } from './posts/post01/post01.component';
 import { NavigationComponent } from './rayouts/navigation/navigation.component';
 import { FooterComponent } from './rayouts/footer/footer.component';
 import { Post02Component } from './posts/post02/post02.component';
+import { Post03Component } from './posts/post03/post03.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Post02Component } from './posts/post02/post02.component';
     Post01Component,
     NavigationComponent,
     FooterComponent,
-    Post02Component
+    Post02Component,
+    Post03Component
   ],
   imports: [
     BrowserModule,
